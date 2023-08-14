@@ -234,15 +234,16 @@ table .status {
 .pagination ul :not(:last-child) {
   border-right: 1px solid #198754;
 }
+.pagination ul li:nth-child(3) li.active {
+  background: #198754;
+}
 .pagination ul li {
   width: 32px;
   height: 32px;
 }
-.pagination ul li:active {
-  background: #198754;
-}
 .pagination ul a {
   text-align: center;
+  height: 100%;
 }
 
 .popupOverlay {
